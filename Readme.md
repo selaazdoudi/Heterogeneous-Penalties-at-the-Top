@@ -10,7 +10,7 @@ Replication and extension of Bach et al. (2018) on the U.S. residual gender wage
 
 This repository contains the code and materials for the paper **Heterogeneous Penalties at the Top: Glass Ceilings, Hours Convexity, and Motherhood Selection Among Highly Educated Women in the U.S.**
 
-The project replicates the main findings of Bach et al. (2018) and extends them by studying three structural mechanisms behind wage penalties among highly educated White non-Hispanic women.
+The project starts froms the main findings of Bach et al. (2018) and extends them by studying three structural mechanisms behind wage penalties among highly educated White non-Hispanic women.
 
 ---
 
