@@ -17,7 +17,7 @@ This repository contains the code and materials for the paper:
 
 The project replicates the main results of Bach et al. (2018), who use Double Post-Lasso in a high-dimensional framework to document heterogeneity in the U.S. residual gender wage gap, and extends their analysis by focusing on highly educated White non-Hispanic women — the group facing the largest documented penalties.
 
-The original results that OLS substantially understates heterogeneity in the gender wage gap. The extensions then investigate three structural mechanisms behind these penalties.
+The original results show that OLS substantially understates heterogeneity in the gender wage gap. The extensions then investigate three structural mechanisms behind these penalties.
 
 ## Main findings
 
