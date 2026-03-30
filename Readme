@@ -1,41 +1,94 @@
+<div align="center">
+<!-- Header Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Heterogeneous%20Penalties%20at%20the%20Top&fontSize=28&fontColor=e2b96f&fontAlignY=40&desc=Replication%20%26%20Extension%20of%20Bach%20et%20al.%20(2018)&descSize=16&descColor=94a3b8&descAlignY=62&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f8f4ee,50:ede8df,100:ddd5c8&height=200&section=header&text=Heterogeneous%20Penalties%20at%20the%20Top&fontSize=28&fontColor=2c3e50&fontAlignY=40&desc=Replication%20%26%20Extension%20of%20Bach%20et%20al.%20(2018)&descSize=16&descColor=6b7280&descAlignY=62&animation=fadeIn" alt="Header"/>
+</picture>
+<br/>
+<!-- Subtitle -->
+<p>
+  <em>Glass Ceilings · Hours Convexity · Motherhood Selection · Highly Educated Women in the U.S.</em>
+</p>
+<br/>
+<!-- Author Badges -->
+<a href="https://github.com/">
+  <img src="https://img.shields.io/badge/Salma%20El%20Aazdoudi-contributor-4a90d9?style=flat-square&labelColor=1e2a3a"/>
+</a>
+&nbsp;
+<a href="https://github.com/">
+  <img src="https://img.shields.io/badge/Rafael%20Mourouvin-contributor-4a90d9?style=flat-square&labelColor=1e2a3a"/>
+</a>
+&nbsp;
+<a href="https://github.com/">
+  <img src="https://img.shields.io/badge/Maria%20Micaela%20Linares%20Gomez-contributor-4a90d9?style=flat-square&labelColor=1e2a3a"/>
+</a>
+<br/><br/>
+<!-- Status Badges -->
+<img src="https://img.shields.io/badge/Status-Research%20Paper-e2b96f?style=flat-square&labelColor=1e2a3a"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Data-ACS%202016-94c5cc?style=flat-square&labelColor=1e2a3a"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Methods-Causal%20ML-a8d8a8?style=flat-square&labelColor=1e2a3a"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Base%20Paper-Bach%20et%20al.%20(2018)-d4a5c9?style=flat-square&labelColor=1e2a3a"/>
+</div>
 
-# Heterogeneous Penalties at the Top
-
-Replication and extension of Bach et al. (2018) on heterogeneity in the U.S. residual gender wage gap.
-
-## Authors
-
-- Salma El Aazdoudi
-- Rafael Mourouvin
-- Maria Micaela Linares Gomez
-
-## Project overview
-
+📋 Overview
 This repository contains the code and materials for the paper:
 
-**Heterogeneous Penalties at the Top: Glass Ceilings, Hours Convexity, and Motherhood Selection Among Highly Educated Women in the U.S.**
+Heterogeneous Penalties at the Top: Glass Ceilings, Hours Convexity, and Motherhood Selection Among Highly Educated Women in the U.S.
 
-The project replicates the main results of Bach et al. (2018), who use Double Post-Lasso in a high-dimensional framework to document heterogeneity in the U.S. residual gender wage gap, and extends their analysis by focusing on highly educated White non-Hispanic women — the group facing the largest documented penalties.
+The project replicates the main findings of Bach et al. (2018) and extends them by studying three structural mechanisms behind wage penalties among highly educated White non-Hispanic women in the United States.
 
-The original results show that OLS substantially understates heterogeneity in the gender wage gap. The extensions then investigate three structural mechanisms behind these penalties.
+🔍 Main Findings
+<table>
+<tr>
+<td width="33%" align="center">
+🏛️ Glass Ceiling
+Evidence of a glass ceiling at the top of the earnings distribution, with disproportionate wage penalties concentrated among high earners.
+</td>
+<td width="33%" align="center">
+⏱️ Hours Convexity
+Convex market returns to long hours, with an added penalty for women working 70+ hours per week.
+</td>
+<td width="33%" align="center">
+👶 Motherhood Selection
+A motherhood premium among full-time workers that appears to reflect selection, not causality.
+</td>
+</tr>
+</table>
 
-## Main findings
+🗂️ Repository Structure
+📦 heterogeneous-penalties-at-the-top
+├── 📁 data/          — Datasets and data preparation files
+├── 📁 codes/         — Replication and extension code
+├── 📁 figures/       — Figures used in the paper and presentation
+├── 📁 tables/        — Regression tables and outputs
+├── 📁 presentation/  — Slides and presentation materials
+└── 📁 report/        — Main paper and appendix
 
-The project reaches three main conclusions:
+🛠️ Methods
+This project employs a suite of modern causal inference and machine learning techniques:
+MethodApplicationDouble Post-LassoHigh-dimensional variable selectionCausal ForestHeterogeneous treatment effect estimationDouble Machine Learning (DML)Semiparametric wage gap estimationDML-IRMInteractive regression modelPropensity Score WeightingSelection correctionCross-FittingSample-splitting for valid inference
 
-- Among highly educated women, the penalty is concentrated at the top of the earnings distribution, consistent with a **glass ceiling**.
-- Professional labour markets reward extreme hours convexly, but women working 70+ hours face an additional penalty that offsets this market premium.
-- The observed motherhood wage premium among full-time workers is more consistent with **positive selection into employment** than with a causal return to motherhood.
+📊 Data
+2016 American Community Survey (ACS)
+Restricted to:
 
-Taken together, the results suggest that highly educated women are held back less by differences in human capital than by the structure of professional labour markets.
+✅ Full-time, year-round employed individuals
+✅ Ages 25 to 65
+✅ White non-Hispanic women with high educational attainment
 
-## Repository structure
 
-```text
-.
-├── data/           # datasets and data preparation files
-├── codes/          # replication and extension code
-├── figures/        # output figures used in the paper
-├── tables/         # output tables and estimation results
-├── presentation/   # slides and presentation material
-└── report/         # paper, appendix, and related files
+📚 Reference
+
+Bach, P., Chernozhukov, V., Kurz, M. S., & Spindler, M. (2018). Closing the U.S. Gender Wage Gap Requires Understanding Its Heterogeneity. arXiv preprint.
+
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ddd5c8,50:ede8df,100:f8f4ee&height=100&section=footer" alt="Footer"/>
+</picture>
+<sub>Research conducted for academic purposes · Data sourced from public U.S. Census Bureau records</sub>
+</div>
