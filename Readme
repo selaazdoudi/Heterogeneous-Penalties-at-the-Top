@@ -1,1 +1,75 @@
-
+# Heterogeneous Penalties at the Top
+ 
+> Replication and extension of Bach et al. (2018) on the U.S. residual gender wage gap
+ 
+![Status](https://img.shields.io/badge/Status-Research%20Paper-e2b96f?style=flat-square)
+![Data](https://img.shields.io/badge/Data-ACS%202016-94c5cc?style=flat-square)
+![Methods](https://img.shields.io/badge/Methods-Causal%20ML-a8d8a8?style=flat-square)
+![Base Paper](https://img.shields.io/badge/Base%20Paper-Bach%20et%20al.%20(2018)-d4a5c9?style=flat-square)
+ 
+**Authors:** Salma El Aazdoudi · Rafael Mourouvin · Maria Micaela Linares Gomez
+ 
+---
+ 
+## Overview
+ 
+This repository contains the code and materials for the paper:
+ 
+**Heterogeneous Penalties at the Top: Glass Ceilings, Hours Convexity, and Motherhood Selection Among Highly Educated Women in the U.S.**
+ 
+The project replicates the main findings of Bach et al. (2018) and extends them by studying three structural mechanisms behind wage penalties among highly educated White non-Hispanic women.
+ 
+---
+ 
+## Main Findings
+ 
+### 🏛️ Glass Ceiling
+Evidence of a glass ceiling at the top of the earnings distribution, with disproportionate wage penalties concentrated among high earners.
+ 
+### ⏱️ Hours Convexity
+Convex market returns to long hours, with an added penalty for women working **70+ hours per week**.
+ 
+### 👶 Motherhood Selection
+A motherhood premium among full-time workers that appears to reflect **selection**, not causality.
+ 
+---
+ 
+## Repository Structure
+ 
+```
+📦 heterogeneous-penalties-at-the-top
+├── 📁 data/          — Datasets and data preparation files
+├── 📁 codes/         — Replication and extension code
+├── 📁 figures/       — Figures used in the paper and presentation
+├── 📁 tables/        — Regression tables and outputs
+├── 📁 presentation/  — Slides and presentation materials
+└── 📁 report/        — Main paper and appendix
+```
+ 
+---
+ 
+## Methods
+ 
+| Method | Application |
+|--------|-------------|
+| Double Post-Lasso | High-dimensional variable selection |
+| Causal Forest | Heterogeneous treatment effect estimation |
+| Double Machine Learning (DML) | Semiparametric wage gap estimation |
+| DML-IRM | Interactive regression model |
+| Propensity Score Weighting | Selection correction |
+| Cross-Fitting | Sample-splitting for valid inference |
+ 
+---
+ 
+## Data
+ 
+**2016 American Community Survey (ACS)**, restricted to:
+- Full-time, year-round employed individuals
+- Ages **25 to 65**
+- White non-Hispanic women with high educational attainment
+ 
+---
+ 
+## Reference
+ 
+> Bach, P., Chernozhukov, V., Kurz, M. S., & Spindler, M. (2018). *Closing the U.S. Gender Wage Gap Requires Understanding Its Heterogeneity*. arXiv preprint.
