@@ -1,1 +1,41 @@
 
+# Heterogeneous Penalties at the Top
+
+Replication and extension of Bach et al. (2018) on heterogeneity in the U.S. residual gender wage gap.
+
+## Authors
+
+- Salma El Aazdoudi
+- Rafael Mourouvin
+- Maria Micaela Linares Gomez
+
+## Project overview
+
+This repository contains the code and materials for the paper:
+
+**Heterogeneous Penalties at the Top: Glass Ceilings, Hours Convexity, and Motherhood Selection Among Highly Educated Women in the U.S.**
+
+The project replicates the main results of Bach et al. (2018), who use Double Post-Lasso in a high-dimensional framework to document heterogeneity in the U.S. residual gender wage gap, and extends their analysis by focusing on highly educated White non-Hispanic women — the group facing the largest documented penalties.
+
+The original results that OLS substantially understates heterogeneity in the gender wage gap. The extensions then investigate three structural mechanisms behind these penalties.
+
+## Main findings
+
+The project reaches three main conclusions:
+
+- Among highly educated women, the penalty is concentrated at the top of the earnings distribution, consistent with a **glass ceiling**.
+- Professional labour markets reward extreme hours convexly, but women working 70+ hours face an additional penalty that offsets this market premium.
+- The observed motherhood wage premium among full-time workers is more consistent with **positive selection into employment** than with a causal return to motherhood.
+
+Taken together, the results suggest that highly educated women are held back less by differences in human capital than by the structure of professional labour markets.
+
+## Repository structure
+
+```text
+.
+├── data/           # datasets and data preparation files
+├── codes/          # replication and extension code
+├── figures/        # output figures used in the paper
+├── tables/         # output tables and estimation results
+├── presentation/   # slides and presentation material
+└── report/         # paper, appendix, and related files
