@@ -2,7 +2,7 @@
 
 Replication and extension of Bach et al. (2018) on the U.S. residual gender wage gap.
 
-**Authors:** Salma El Aazdoudi · Rafael Mourouvin · Maria Micaela Linares Gomez
+**Authors:** Salma El Aazdoudi · Rafael Mourouvin · Maria Micaela Linares Gomez from Ecole Polytechnique (X-ENSAE)
 
 ---
 
